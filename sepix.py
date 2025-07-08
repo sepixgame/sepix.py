@@ -749,7 +749,7 @@ async def list_users(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("هیچ کاربری ثبت‌نام نکرده است.")
 
 async def add_test_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    admin_id = 1877238598 
+    admin_id = 826685726 
     if update.effective_chat.id != admin_id:
         await update.message.reply_text("دسترسی ندارید.")
         return
@@ -882,7 +882,7 @@ async def send_message_via_link(update: Update, context: ContextTypes.DEFAULT_TY
 if __name__ == '__main__':
     BOT_TOKEN = ""
 
-    application = ApplicationBuilder().token(BOT_TOKEN).build()
+    application = ApplicationBuilder().token(8195064054:AAEmSGt0JR6ery9VaGLVpi4wGzcMK_7CsQA).build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
